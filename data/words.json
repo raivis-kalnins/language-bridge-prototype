@@ -1,80 +1,3090 @@
 [
-  {"en":"hello","lv":"sveiki","pos":"greeting","example_en":"Hello! Nice to meet you.","example_lv":"Sveiki! Prieks iepazīties."},
-  {"en":"good morning","lv":"labrīt","pos":"greeting","example_en":"Good morning! How are you?","example_lv":"Labrīt! Kā jums klājas?"},
-  {"en":"good evening","lv":"labvakar","pos":"greeting","example_en":"Good evening, everyone.","example_lv":"Labvakar visiem."},
-  {"en":"goodbye","lv":"uz redzēšanos","pos":"greeting","example_en":"Goodbye, see you tomorrow.","example_lv":"Uz redzēšanos, tiekamies rīt."},
-  {"en":"please","lv":"lūdzu","pos":"adverb","example_en":"Please speak slowly.","example_lv":"Lūdzu, runājiet lēnām."},
-  {"en":"thank you","lv":"paldies","pos":"greeting","example_en":"Thank you for your help.","example_lv":"Paldies par palīdzību."},
-  {"en":"yes","lv":"jā","pos":"adverb","example_en":"Yes, I understand.","example_lv":"Jā, es saprotu."},
-  {"en":"no","lv":"nē","pos":"adverb","example_en":"No, not today.","example_lv":"Nē, ne šodien."},
-  {"en":"sorry","lv":"atvainojiet","pos":"greeting","example_en":"Sorry, I do not understand.","example_lv":"Atvainojiet, es nesaprotu."},
-  {"en":"help","lv":"palīdzība","pos":"noun","example_en":"I need help.","example_lv":"Man vajag palīdzību."},
-  {"en":"language","lv":"valoda","pos":"noun","example_en":"Latvian is a Baltic language.","example_lv":"Latviešu valoda ir baltu valoda."},
-  {"en":"word","lv":"vārds","pos":"noun","example_en":"What does this word mean?","example_lv":"Ko nozīmē šis vārds?"},
-  {"en":"sentence","lv":"teikums","pos":"noun","example_en":"Write one sentence.","example_lv":"Uzraksti vienu teikumu."},
-  {"en":"question","lv":"jautājums","pos":"noun","example_en":"I have a question.","example_lv":"Man ir jautājums."},
-  {"en":"answer","lv":"atbilde","pos":"noun","example_en":"That is the correct answer.","example_lv":"Tā ir pareizā atbilde."},
-  {"en":"book","lv":"grāmata","pos":"noun","example_en":"This book is interesting.","example_lv":"Šī grāmata ir interesanta."},
-  {"en":"school","lv":"skola","pos":"noun","example_en":"The school is nearby.","example_lv":"Skola ir netālu."},
-  {"en":"work","lv":"darbs","pos":"noun","example_en":"I am going to work.","example_lv":"Es eju uz darbu."},
-  {"en":"home","lv":"mājas","pos":"noun","example_en":"I am at home.","example_lv":"Es esmu mājās."},
-  {"en":"family","lv":"ģimene","pos":"noun","example_en":"My family lives in Latvia.","example_lv":"Mana ģimene dzīvo Latvijā."},
-  {"en":"friend","lv":"draugs","pos":"noun","example_en":"He is my friend.","example_lv":"Viņš ir mans draugs."},
-  {"en":"woman","lv":"sieviete","pos":"noun","example_en":"The woman is waiting.","example_lv":"Sieviete gaida."},
-  {"en":"man","lv":"vīrietis","pos":"noun","example_en":"The man is speaking.","example_lv":"Vīrietis runā."},
-  {"en":"child","lv":"bērns","pos":"noun","example_en":"The child is reading.","example_lv":"Bērns lasa."},
-  {"en":"food","lv":"ēdiens","pos":"noun","example_en":"The food is delicious.","example_lv":"Ēdiens ir garšīgs."},
-  {"en":"water","lv":"ūdens","pos":"noun","example_en":"Can I have some water?","example_lv":"Vai es varu dabūt ūdeni?"},
-  {"en":"coffee","lv":"kafija","pos":"noun","example_en":"I would like coffee.","example_lv":"Es gribētu kafiju."},
-  {"en":"tea","lv":"tēja","pos":"noun","example_en":"Tea, please.","example_lv":"Tēju, lūdzu."},
-  {"en":"bread","lv":"maize","pos":"noun","example_en":"We need bread.","example_lv":"Mums vajag maizi."},
-  {"en":"shop","lv":"veikals","pos":"noun","example_en":"Where is the shop?","example_lv":"Kur ir veikals?"},
-  {"en":"money","lv":"nauda","pos":"noun","example_en":"I do not have cash.","example_lv":"Man nav skaidras naudas."},
-  {"en":"price","lv":"cena","pos":"noun","example_en":"What is the price?","example_lv":"Kāda ir cena?"},
-  {"en":"street","lv":"iela","pos":"noun","example_en":"This street is quiet.","example_lv":"Šī iela ir klusa."},
-  {"en":"city","lv":"pilsēta","pos":"noun","example_en":"Riga is a beautiful city.","example_lv":"Rīga ir skaista pilsēta."},
-  {"en":"country","lv":"valsts","pos":"noun","example_en":"Latvia is my country.","example_lv":"Latvija ir mana valsts."},
-  {"en":"train","lv":"vilciens","pos":"noun","example_en":"The train leaves at eight.","example_lv":"Vilciens atiet astoņos."},
-  {"en":"bus","lv":"autobuss","pos":"noun","example_en":"We are waiting for the bus.","example_lv":"Mēs gaidām autobusu."},
-  {"en":"airport","lv":"lidosta","pos":"noun","example_en":"How do I get to the airport?","example_lv":"Kā nokļūt lidostā?"},
-  {"en":"ticket","lv":"biļete","pos":"noun","example_en":"One ticket, please.","example_lv":"Vienu biļeti, lūdzu."},
-  {"en":"today","lv":"šodien","pos":"adverb","example_en":"I am busy today.","example_lv":"Šodien esmu aizņemts."},
-  {"en":"tomorrow","lv":"rīt","pos":"adverb","example_en":"See you tomorrow.","example_lv":"Tiekamies rīt."},
-  {"en":"yesterday","lv":"vakar","pos":"adverb","example_en":"I arrived yesterday.","example_lv":"Es ierados vakar."},
-  {"en":"now","lv":"tagad","pos":"adverb","example_en":"I am ready now.","example_lv":"Tagad esmu gatavs."},
-  {"en":"later","lv":"vēlāk","pos":"adverb","example_en":"We can talk later.","example_lv":"Mēs varam parunāt vēlāk."},
-  {"en":"one","lv":"viens","pos":"number","example_en":"I need one minute.","example_lv":"Man vajag vienu minūti."},
-  {"en":"two","lv":"divi","pos":"number","example_en":"Two coffees, please.","example_lv":"Divas kafijas, lūdzu."},
-  {"en":"three","lv":"trīs","pos":"number","example_en":"Three people are coming.","example_lv":"Nāk trīs cilvēki."},
-  {"en":"big","lv":"liels","pos":"adjective","example_en":"It is a big house.","example_lv":"Tā ir liela māja."},
-  {"en":"small","lv":"mazs","pos":"adjective","example_en":"I have a small bag.","example_lv":"Man ir maza soma."},
-  {"en":"good","lv":"labs","pos":"adjective","example_en":"That is a good idea.","example_lv":"Tā ir laba ideja."},
-  {"en":"bad","lv":"slikts","pos":"adjective","example_en":"The weather is bad.","example_lv":"Laiks ir slikts."},
-  {"en":"easy","lv":"viegls","pos":"adjective","example_en":"This exercise is easy.","example_lv":"Šis uzdevums ir viegls."},
-  {"en":"difficult","lv":"grūts","pos":"adjective","example_en":"Latvian grammar can be difficult.","example_lv":"Latviešu gramatika var būt grūta."},
-  {"en":"beautiful","lv":"skaists","pos":"adjective","example_en":"The old town is beautiful.","example_lv":"Vecpilsēta ir skaista."},
-  {"en":"happy","lv":"laimīgs","pos":"adjective","example_en":"I am happy to see you.","example_lv":"Esmu laimīgs tevi redzēt."},
-  {"en":"tired","lv":"noguris","pos":"adjective","example_en":"I am tired today.","example_lv":"Šodien esmu noguris."},
-  {"en":"to be","lv":"būt","pos":"verb","example_en":"I want to be ready.","example_lv":"Es gribu būt gatavs."},
-  {"en":"to have","lv":"būt / piederēt","pos":"verb","example_en":"I have a question.","example_lv":"Man ir jautājums."},
-  {"en":"to go","lv":"iet","pos":"verb","example_en":"I go to work every day.","example_lv":"Es katru dienu eju uz darbu."},
-  {"en":"to come","lv":"nākt","pos":"verb","example_en":"Can you come tomorrow?","example_lv":"Vai tu vari atnākt rīt?"},
-  {"en":"to speak","lv":"runāt","pos":"verb","example_en":"I speak a little Latvian.","example_lv":"Es mazliet runāju latviski."},
-  {"en":"to listen","lv":"klausīties","pos":"verb","example_en":"Listen carefully.","example_lv":"Klausies uzmanīgi."},
-  {"en":"to read","lv":"lasīt","pos":"verb","example_en":"I like to read.","example_lv":"Man patīk lasīt."},
-  {"en":"to write","lv":"rakstīt","pos":"verb","example_en":"Please write your name.","example_lv":"Lūdzu, uzrakstiet savu vārdu."},
-  {"en":"to learn","lv":"mācīties","pos":"verb","example_en":"I am learning English.","example_lv":"Es mācos angļu valodu."},
-  {"en":"to understand","lv":"saprast","pos":"verb","example_en":"I understand the question.","example_lv":"Es saprotu jautājumu."},
-  {"en":"to know","lv":"zināt","pos":"verb","example_en":"I do not know.","example_lv":"Es nezinu."},
-  {"en":"to want","lv":"gribēt","pos":"verb","example_en":"I want to practise.","example_lv":"Es gribu trenēties."},
-  {"en":"to need","lv":"vajadzēt","pos":"verb","example_en":"I need more time.","example_lv":"Man vajag vairāk laika."},
-  {"en":"to like","lv":"patikt","pos":"verb","example_en":"I like this song.","example_lv":"Man patīk šī dziesma."},
-  {"en":"to eat","lv":"ēst","pos":"verb","example_en":"What would you like to eat?","example_lv":"Ko jūs gribētu ēst?"},
-  {"en":"to drink","lv":"dzert","pos":"verb","example_en":"I would like to drink water.","example_lv":"Es gribētu dzert ūdeni."},
-  {"en":"where","lv":"kur","pos":"question","example_en":"Where do you live?","example_lv":"Kur tu dzīvo?"},
-  {"en":"when","lv":"kad","pos":"question","example_en":"When does it start?","example_lv":"Kad tas sākas?"},
-  {"en":"why","lv":"kāpēc","pos":"question","example_en":"Why are you learning Latvian?","example_lv":"Kāpēc tu mācies latviešu valodu?"},
-  {"en":"how","lv":"kā","pos":"question","example_en":"How are you?","example_lv":"Kā tev klājas?"},
-  {"en":"what","lv":"kas / ko","pos":"question","example_en":"What is your name?","example_lv":"Kā tevi sauc?"},
-  {"en":"who","lv":"kas","pos":"question","example_en":"Who is that?","example_lv":"Kas tas ir?"}
+  {
+    "en": "hello",
+    "lv": "sveiki",
+    "pos": "greeting",
+    "example_en": "Hello! Nice to meet you.",
+    "example_lv": "Sveiki! Prieks iepazīties.",
+    "category": "starter"
+  },
+  {
+    "en": "good morning",
+    "lv": "labrīt",
+    "pos": "greeting",
+    "example_en": "Good morning! How are you?",
+    "example_lv": "Labrīt! Kā jums klājas?",
+    "category": "starter"
+  },
+  {
+    "en": "good evening",
+    "lv": "labvakar",
+    "pos": "greeting",
+    "example_en": "Good evening, everyone.",
+    "example_lv": "Labvakar visiem.",
+    "category": "starter"
+  },
+  {
+    "en": "goodbye",
+    "lv": "uz redzēšanos",
+    "pos": "greeting",
+    "example_en": "Goodbye, see you tomorrow.",
+    "example_lv": "Uz redzēšanos, tiekamies rīt.",
+    "category": "starter"
+  },
+  {
+    "en": "please",
+    "lv": "lūdzu",
+    "pos": "adverb",
+    "example_en": "Please speak slowly.",
+    "example_lv": "Lūdzu, runājiet lēnām.",
+    "category": "starter"
+  },
+  {
+    "en": "thank you",
+    "lv": "paldies",
+    "pos": "greeting",
+    "example_en": "Thank you for your help.",
+    "example_lv": "Paldies par palīdzību.",
+    "category": "starter"
+  },
+  {
+    "en": "yes",
+    "lv": "jā",
+    "pos": "adverb",
+    "example_en": "Yes, I understand.",
+    "example_lv": "Jā, es saprotu.",
+    "category": "starter"
+  },
+  {
+    "en": "no",
+    "lv": "nē",
+    "pos": "adverb",
+    "example_en": "No, not today.",
+    "example_lv": "Nē, ne šodien.",
+    "category": "starter"
+  },
+  {
+    "en": "sorry",
+    "lv": "atvainojiet",
+    "pos": "greeting",
+    "example_en": "Sorry, I do not understand.",
+    "example_lv": "Atvainojiet, es nesaprotu.",
+    "category": "starter"
+  },
+  {
+    "en": "help",
+    "lv": "palīdzība",
+    "pos": "noun",
+    "example_en": "I need help.",
+    "example_lv": "Man vajag palīdzību.",
+    "category": "starter"
+  },
+  {
+    "en": "language",
+    "lv": "valoda",
+    "pos": "noun",
+    "example_en": "Latvian is a Baltic language.",
+    "example_lv": "Latviešu valoda ir baltu valoda.",
+    "category": "starter"
+  },
+  {
+    "en": "word",
+    "lv": "vārds",
+    "pos": "noun",
+    "example_en": "What does this word mean?",
+    "example_lv": "Ko nozīmē šis vārds?",
+    "category": "starter"
+  },
+  {
+    "en": "sentence",
+    "lv": "teikums",
+    "pos": "noun",
+    "example_en": "Write one sentence.",
+    "example_lv": "Uzraksti vienu teikumu.",
+    "category": "starter"
+  },
+  {
+    "en": "question",
+    "lv": "jautājums",
+    "pos": "noun",
+    "example_en": "I have a question.",
+    "example_lv": "Man ir jautājums.",
+    "category": "starter"
+  },
+  {
+    "en": "answer",
+    "lv": "atbilde",
+    "pos": "noun",
+    "example_en": "That is the correct answer.",
+    "example_lv": "Tā ir pareizā atbilde.",
+    "category": "starter"
+  },
+  {
+    "en": "book",
+    "lv": "grāmata",
+    "pos": "noun",
+    "example_en": "This book is interesting.",
+    "example_lv": "Šī grāmata ir interesanta.",
+    "category": "starter"
+  },
+  {
+    "en": "school",
+    "lv": "skola",
+    "pos": "noun",
+    "example_en": "The school is nearby.",
+    "example_lv": "Skola ir netālu.",
+    "category": "starter"
+  },
+  {
+    "en": "work",
+    "lv": "darbs",
+    "pos": "noun",
+    "example_en": "I am going to work.",
+    "example_lv": "Es eju uz darbu.",
+    "category": "starter"
+  },
+  {
+    "en": "home",
+    "lv": "mājas",
+    "pos": "noun",
+    "example_en": "I am at home.",
+    "example_lv": "Es esmu mājās.",
+    "category": "starter"
+  },
+  {
+    "en": "family",
+    "lv": "ģimene",
+    "pos": "noun",
+    "example_en": "My family lives in Latvia.",
+    "example_lv": "Mana ģimene dzīvo Latvijā.",
+    "category": "starter"
+  },
+  {
+    "en": "friend",
+    "lv": "draugs",
+    "pos": "noun",
+    "example_en": "He is my friend.",
+    "example_lv": "Viņš ir mans draugs.",
+    "category": "starter"
+  },
+  {
+    "en": "woman",
+    "lv": "sieviete",
+    "pos": "noun",
+    "example_en": "The woman is waiting.",
+    "example_lv": "Sieviete gaida.",
+    "category": "starter"
+  },
+  {
+    "en": "man",
+    "lv": "vīrietis",
+    "pos": "noun",
+    "example_en": "The man is speaking.",
+    "example_lv": "Vīrietis runā.",
+    "category": "starter"
+  },
+  {
+    "en": "child",
+    "lv": "bērns",
+    "pos": "noun",
+    "example_en": "The child is reading.",
+    "example_lv": "Bērns lasa.",
+    "category": "starter"
+  },
+  {
+    "en": "food",
+    "lv": "ēdiens",
+    "pos": "noun",
+    "example_en": "The food is delicious.",
+    "example_lv": "Ēdiens ir garšīgs.",
+    "category": "starter"
+  },
+  {
+    "en": "water",
+    "lv": "ūdens",
+    "pos": "noun",
+    "example_en": "Can I have some water?",
+    "example_lv": "Vai es varu dabūt ūdeni?",
+    "category": "starter"
+  },
+  {
+    "en": "coffee",
+    "lv": "kafija",
+    "pos": "noun",
+    "example_en": "I would like coffee.",
+    "example_lv": "Es gribētu kafiju.",
+    "category": "starter"
+  },
+  {
+    "en": "tea",
+    "lv": "tēja",
+    "pos": "noun",
+    "example_en": "Tea, please.",
+    "example_lv": "Tēju, lūdzu.",
+    "category": "starter"
+  },
+  {
+    "en": "bread",
+    "lv": "maize",
+    "pos": "noun",
+    "example_en": "We need bread.",
+    "example_lv": "Mums vajag maizi.",
+    "category": "starter"
+  },
+  {
+    "en": "shop",
+    "lv": "veikals",
+    "pos": "noun",
+    "example_en": "Where is the shop?",
+    "example_lv": "Kur ir veikals?",
+    "category": "starter"
+  },
+  {
+    "en": "money",
+    "lv": "nauda",
+    "pos": "noun",
+    "example_en": "I do not have cash.",
+    "example_lv": "Man nav skaidras naudas.",
+    "category": "starter"
+  },
+  {
+    "en": "price",
+    "lv": "cena",
+    "pos": "noun",
+    "example_en": "What is the price?",
+    "example_lv": "Kāda ir cena?",
+    "category": "starter"
+  },
+  {
+    "en": "street",
+    "lv": "iela",
+    "pos": "noun",
+    "example_en": "This street is quiet.",
+    "example_lv": "Šī iela ir klusa.",
+    "category": "starter"
+  },
+  {
+    "en": "city",
+    "lv": "pilsēta",
+    "pos": "noun",
+    "example_en": "Riga is a beautiful city.",
+    "example_lv": "Rīga ir skaista pilsēta.",
+    "category": "starter"
+  },
+  {
+    "en": "country",
+    "lv": "valsts",
+    "pos": "noun",
+    "example_en": "Latvia is my country.",
+    "example_lv": "Latvija ir mana valsts.",
+    "category": "starter"
+  },
+  {
+    "en": "train",
+    "lv": "vilciens",
+    "pos": "noun",
+    "example_en": "The train leaves at eight.",
+    "example_lv": "Vilciens atiet astoņos.",
+    "category": "starter"
+  },
+  {
+    "en": "bus",
+    "lv": "autobuss",
+    "pos": "noun",
+    "example_en": "We are waiting for the bus.",
+    "example_lv": "Mēs gaidām autobusu.",
+    "category": "starter"
+  },
+  {
+    "en": "airport",
+    "lv": "lidosta",
+    "pos": "noun",
+    "example_en": "How do I get to the airport?",
+    "example_lv": "Kā nokļūt lidostā?",
+    "category": "starter"
+  },
+  {
+    "en": "ticket",
+    "lv": "biļete",
+    "pos": "noun",
+    "example_en": "One ticket, please.",
+    "example_lv": "Vienu biļeti, lūdzu.",
+    "category": "starter"
+  },
+  {
+    "en": "today",
+    "lv": "šodien",
+    "pos": "adverb",
+    "example_en": "I am busy today.",
+    "example_lv": "Šodien esmu aizņemts.",
+    "category": "starter"
+  },
+  {
+    "en": "tomorrow",
+    "lv": "rīt",
+    "pos": "adverb",
+    "example_en": "See you tomorrow.",
+    "example_lv": "Tiekamies rīt.",
+    "category": "starter"
+  },
+  {
+    "en": "yesterday",
+    "lv": "vakar",
+    "pos": "adverb",
+    "example_en": "I arrived yesterday.",
+    "example_lv": "Es ierados vakar.",
+    "category": "starter"
+  },
+  {
+    "en": "now",
+    "lv": "tagad",
+    "pos": "adverb",
+    "example_en": "I am ready now.",
+    "example_lv": "Tagad esmu gatavs.",
+    "category": "starter"
+  },
+  {
+    "en": "later",
+    "lv": "vēlāk",
+    "pos": "adverb",
+    "example_en": "We can talk later.",
+    "example_lv": "Mēs varam parunāt vēlāk.",
+    "category": "starter"
+  },
+  {
+    "en": "one",
+    "lv": "viens",
+    "pos": "number",
+    "example_en": "I need one minute.",
+    "example_lv": "Man vajag vienu minūti.",
+    "category": "starter"
+  },
+  {
+    "en": "two",
+    "lv": "divi",
+    "pos": "number",
+    "example_en": "Two coffees, please.",
+    "example_lv": "Divas kafijas, lūdzu.",
+    "category": "starter"
+  },
+  {
+    "en": "three",
+    "lv": "trīs",
+    "pos": "number",
+    "example_en": "Three people are coming.",
+    "example_lv": "Nāk trīs cilvēki.",
+    "category": "starter"
+  },
+  {
+    "en": "big",
+    "lv": "liels",
+    "pos": "adjective",
+    "example_en": "It is a big house.",
+    "example_lv": "Tā ir liela māja.",
+    "category": "starter"
+  },
+  {
+    "en": "small",
+    "lv": "mazs",
+    "pos": "adjective",
+    "example_en": "I have a small bag.",
+    "example_lv": "Man ir maza soma.",
+    "category": "starter"
+  },
+  {
+    "en": "good",
+    "lv": "labs",
+    "pos": "adjective",
+    "example_en": "That is a good idea.",
+    "example_lv": "Tā ir laba ideja.",
+    "category": "starter"
+  },
+  {
+    "en": "bad",
+    "lv": "slikts",
+    "pos": "adjective",
+    "example_en": "The weather is bad.",
+    "example_lv": "Laiks ir slikts.",
+    "category": "starter"
+  },
+  {
+    "en": "easy",
+    "lv": "viegls",
+    "pos": "adjective",
+    "example_en": "This exercise is easy.",
+    "example_lv": "Šis uzdevums ir viegls.",
+    "category": "starter"
+  },
+  {
+    "en": "difficult",
+    "lv": "grūts",
+    "pos": "adjective",
+    "example_en": "Latvian grammar can be difficult.",
+    "example_lv": "Latviešu gramatika var būt grūta.",
+    "category": "starter"
+  },
+  {
+    "en": "beautiful",
+    "lv": "skaists",
+    "pos": "adjective",
+    "example_en": "The old town is beautiful.",
+    "example_lv": "Vecpilsēta ir skaista.",
+    "category": "starter"
+  },
+  {
+    "en": "happy",
+    "lv": "laimīgs",
+    "pos": "adjective",
+    "example_en": "I am happy to see you.",
+    "example_lv": "Esmu laimīgs tevi redzēt.",
+    "category": "starter"
+  },
+  {
+    "en": "tired",
+    "lv": "noguris",
+    "pos": "adjective",
+    "example_en": "I am tired today.",
+    "example_lv": "Šodien esmu noguris.",
+    "category": "starter"
+  },
+  {
+    "en": "to be",
+    "lv": "būt",
+    "pos": "verb",
+    "example_en": "I want to be ready.",
+    "example_lv": "Es gribu būt gatavs.",
+    "category": "starter"
+  },
+  {
+    "en": "to have",
+    "lv": "būt / piederēt",
+    "pos": "verb",
+    "example_en": "I have a question.",
+    "example_lv": "Man ir jautājums.",
+    "category": "starter"
+  },
+  {
+    "en": "to go",
+    "lv": "iet",
+    "pos": "verb",
+    "example_en": "I go to work every day.",
+    "example_lv": "Es katru dienu eju uz darbu.",
+    "category": "starter"
+  },
+  {
+    "en": "to come",
+    "lv": "nākt",
+    "pos": "verb",
+    "example_en": "Can you come tomorrow?",
+    "example_lv": "Vai tu vari atnākt rīt?",
+    "category": "starter"
+  },
+  {
+    "en": "to speak",
+    "lv": "runāt",
+    "pos": "verb",
+    "example_en": "I speak a little Latvian.",
+    "example_lv": "Es mazliet runāju latviski.",
+    "category": "starter"
+  },
+  {
+    "en": "to listen",
+    "lv": "klausīties",
+    "pos": "verb",
+    "example_en": "Listen carefully.",
+    "example_lv": "Klausies uzmanīgi.",
+    "category": "starter"
+  },
+  {
+    "en": "to read",
+    "lv": "lasīt",
+    "pos": "verb",
+    "example_en": "I like to read.",
+    "example_lv": "Man patīk lasīt.",
+    "category": "starter"
+  },
+  {
+    "en": "to write",
+    "lv": "rakstīt",
+    "pos": "verb",
+    "example_en": "Please write your name.",
+    "example_lv": "Lūdzu, uzrakstiet savu vārdu.",
+    "category": "starter"
+  },
+  {
+    "en": "to learn",
+    "lv": "mācīties",
+    "pos": "verb",
+    "example_en": "I am learning English.",
+    "example_lv": "Es mācos angļu valodu.",
+    "category": "starter"
+  },
+  {
+    "en": "to understand",
+    "lv": "saprast",
+    "pos": "verb",
+    "example_en": "I understand the question.",
+    "example_lv": "Es saprotu jautājumu.",
+    "category": "starter"
+  },
+  {
+    "en": "to know",
+    "lv": "zināt",
+    "pos": "verb",
+    "example_en": "I do not know.",
+    "example_lv": "Es nezinu.",
+    "category": "starter"
+  },
+  {
+    "en": "to want",
+    "lv": "gribēt",
+    "pos": "verb",
+    "example_en": "I want to practise.",
+    "example_lv": "Es gribu trenēties.",
+    "category": "starter"
+  },
+  {
+    "en": "to need",
+    "lv": "vajadzēt",
+    "pos": "verb",
+    "example_en": "I need more time.",
+    "example_lv": "Man vajag vairāk laika.",
+    "category": "starter"
+  },
+  {
+    "en": "to like",
+    "lv": "patikt",
+    "pos": "verb",
+    "example_en": "I like this song.",
+    "example_lv": "Man patīk šī dziesma.",
+    "category": "starter"
+  },
+  {
+    "en": "to eat",
+    "lv": "ēst",
+    "pos": "verb",
+    "example_en": "What would you like to eat?",
+    "example_lv": "Ko jūs gribētu ēst?",
+    "category": "starter"
+  },
+  {
+    "en": "to drink",
+    "lv": "dzert",
+    "pos": "verb",
+    "example_en": "I would like to drink water.",
+    "example_lv": "Es gribētu dzert ūdeni.",
+    "category": "starter"
+  },
+  {
+    "en": "where",
+    "lv": "kur",
+    "pos": "question",
+    "example_en": "Where do you live?",
+    "example_lv": "Kur tu dzīvo?",
+    "category": "starter"
+  },
+  {
+    "en": "when",
+    "lv": "kad",
+    "pos": "question",
+    "example_en": "When does it start?",
+    "example_lv": "Kad tas sākas?",
+    "category": "starter"
+  },
+  {
+    "en": "why",
+    "lv": "kāpēc",
+    "pos": "question",
+    "example_en": "Why are you learning Latvian?",
+    "example_lv": "Kāpēc tu mācies latviešu valodu?",
+    "category": "starter"
+  },
+  {
+    "en": "how",
+    "lv": "kā",
+    "pos": "question",
+    "example_en": "How are you?",
+    "example_lv": "Kā tev klājas?",
+    "category": "starter"
+  },
+  {
+    "en": "what",
+    "lv": "kas / ko",
+    "pos": "question",
+    "example_en": "What is your name?",
+    "example_lv": "Kā tevi sauc?",
+    "category": "starter"
+  },
+  {
+    "en": "who",
+    "lv": "kas",
+    "pos": "question",
+    "example_en": "Who is that?",
+    "example_lv": "Kas tas ir?",
+    "category": "starter"
+  },
+  {
+    "en": "person",
+    "lv": "cilvēks",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "people",
+    "lv": "cilvēki",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "boy",
+    "lv": "zēns",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "girl",
+    "lv": "meitene",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "mother",
+    "lv": "māte",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "mum",
+    "lv": "mamma",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "father",
+    "lv": "tēvs",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "dad",
+    "lv": "tētis",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "brother",
+    "lv": "brālis",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sister",
+    "lv": "māsa",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "husband",
+    "lv": "vīrs",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "wife",
+    "lv": "sieva",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "son",
+    "lv": "dēls",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "daughter",
+    "lv": "meita",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "grandmother",
+    "lv": "vecmāmiņa",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "grandfather",
+    "lv": "vectēvs",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "parent",
+    "lv": "vecāks",
+    "pos": "noun",
+    "category": "family",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "neighbour",
+    "lv": "kaimiņš",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "colleague",
+    "lv": "kolēģis",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "teacher",
+    "lv": "skolotājs",
+    "pos": "noun",
+    "category": "school",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "student",
+    "lv": "students",
+    "pos": "noun",
+    "category": "school",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "doctor",
+    "lv": "ārsts",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "nurse",
+    "lv": "medmāsa",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "customer",
+    "lv": "klients",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "manager",
+    "lv": "vadītājs",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "name",
+    "lv": "vārds",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "surname",
+    "lv": "uzvārds",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "age",
+    "lv": "vecums",
+    "pos": "noun",
+    "category": "people",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "time",
+    "lv": "laiks",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "day",
+    "lv": "diena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "week",
+    "lv": "nedēļa",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "month",
+    "lv": "mēnesis",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "year",
+    "lv": "gads",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "morning",
+    "lv": "rīts",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "afternoon",
+    "lv": "pēcpusdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "evening",
+    "lv": "vakars",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "night",
+    "lv": "nakts",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Monday",
+    "lv": "pirmdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Tuesday",
+    "lv": "otrdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Wednesday",
+    "lv": "trešdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Thursday",
+    "lv": "ceturtdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Friday",
+    "lv": "piektdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Saturday",
+    "lv": "sestdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Sunday",
+    "lv": "svētdiena",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hour",
+    "lv": "stunda",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "minute",
+    "lv": "minūte",
+    "pos": "noun",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "early",
+    "lv": "agri",
+    "pos": "adverb",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "late",
+    "lv": "vēlu",
+    "pos": "adverb",
+    "category": "time",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "always",
+    "lv": "vienmēr",
+    "pos": "adverb",
+    "category": "frequency",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "often",
+    "lv": "bieži",
+    "pos": "adverb",
+    "category": "frequency",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sometimes",
+    "lv": "dažreiz",
+    "pos": "adverb",
+    "category": "frequency",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "never",
+    "lv": "nekad",
+    "pos": "adverb",
+    "category": "frequency",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "again",
+    "lv": "atkal",
+    "pos": "adverb",
+    "category": "frequency",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "house",
+    "lv": "māja",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "flat",
+    "lv": "dzīvoklis",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "room",
+    "lv": "istaba",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "kitchen",
+    "lv": "virtuve",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bathroom",
+    "lv": "vannasistaba",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bedroom",
+    "lv": "guļamistaba",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "door",
+    "lv": "durvis",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "window",
+    "lv": "logs",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "road",
+    "lv": "ceļš",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "town",
+    "lv": "pilsēta",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "village",
+    "lv": "ciems",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "supermarket",
+    "lv": "lielveikals",
+    "pos": "noun",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "market",
+    "lv": "tirgus",
+    "pos": "noun",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "restaurant",
+    "lv": "restorāns",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "café",
+    "lv": "kafejnīca",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hotel",
+    "lv": "viesnīca",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "station",
+    "lv": "stacija",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bus stop",
+    "lv": "autobusa pietura",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "car",
+    "lv": "automašīna",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bicycle",
+    "lv": "velosipēds",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "taxi",
+    "lv": "taksometrs",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "passport",
+    "lv": "pase",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "luggage",
+    "lv": "bagāža",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "map",
+    "lv": "karte",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "journey",
+    "lv": "ceļojums",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "trip",
+    "lv": "brauciens",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "holiday",
+    "lv": "atvaļinājums",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "beach",
+    "lv": "pludmale",
+    "pos": "noun",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sea",
+    "lv": "jūra",
+    "pos": "noun",
+    "category": "nature",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "river",
+    "lv": "upe",
+    "pos": "noun",
+    "category": "nature",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "lake",
+    "lv": "ezers",
+    "pos": "noun",
+    "category": "nature",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "forest",
+    "lv": "mežs",
+    "pos": "noun",
+    "category": "nature",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "park",
+    "lv": "parks",
+    "pos": "noun",
+    "category": "places",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "milk",
+    "lv": "piens",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cheese",
+    "lv": "siers",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "butter",
+    "lv": "sviests",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "egg",
+    "lv": "ola",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "meat",
+    "lv": "gaļa",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "fish",
+    "lv": "zivs",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "chicken",
+    "lv": "vista",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "potato",
+    "lv": "kartupelis",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "rice",
+    "lv": "rīsi",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "pasta",
+    "lv": "makaroni",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "soup",
+    "lv": "zupa",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "salad",
+    "lv": "salāti",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "fruit",
+    "lv": "auglis",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "apple",
+    "lv": "ābols",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "banana",
+    "lv": "banāns",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "orange",
+    "lv": "apelsīns",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "vegetable",
+    "lv": "dārzenis",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "tomato",
+    "lv": "tomāts",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cucumber",
+    "lv": "gurķis",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "onion",
+    "lv": "sīpols",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "salt",
+    "lv": "sāls",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sugar",
+    "lv": "cukurs",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "breakfast",
+    "lv": "brokastis",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "lunch",
+    "lv": "pusdienas",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "dinner",
+    "lv": "vakariņas",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "menu",
+    "lv": "ēdienkarte",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bill",
+    "lv": "rēķins",
+    "pos": "noun",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hungry",
+    "lv": "izsalcis",
+    "pos": "adjective",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "thirsty",
+    "lv": "izslāpis",
+    "pos": "adjective",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "delicious",
+    "lv": "garšīgs",
+    "pos": "adjective",
+    "category": "food",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "job",
+    "lv": "darbs",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "office",
+    "lv": "birojs",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "meeting",
+    "lv": "sapulce",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "email",
+    "lv": "e-pasts",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "computer",
+    "lv": "dators",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "phone",
+    "lv": "tālrunis",
+    "pos": "noun",
+    "category": "technology",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "internet",
+    "lv": "internets",
+    "pos": "noun",
+    "category": "technology",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "project",
+    "lv": "projekts",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "company",
+    "lv": "uzņēmums",
+    "pos": "noun",
+    "category": "work",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "university",
+    "lv": "universitāte",
+    "pos": "noun",
+    "category": "school",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "lesson",
+    "lv": "stunda",
+    "pos": "noun",
+    "category": "school",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "page",
+    "lv": "lapa",
+    "pos": "noun",
+    "category": "school",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "English",
+    "lv": "angļu valoda",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "Latvian",
+    "lv": "latviešu valoda",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "grammar",
+    "lv": "gramatika",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "pronunciation",
+    "lv": "izruna",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "meaning",
+    "lv": "nozīme",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "translation",
+    "lv": "tulkojums",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "mistake",
+    "lv": "kļūda",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "example",
+    "lv": "piemērs",
+    "pos": "noun",
+    "category": "language",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "health",
+    "lv": "veselība",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hospital",
+    "lv": "slimnīca",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "medicine",
+    "lv": "zāles",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "pain",
+    "lv": "sāpes",
+    "pos": "noun",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "head",
+    "lv": "galva",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hand",
+    "lv": "roka",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "arm",
+    "lv": "roka",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "leg",
+    "lv": "kāja",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "foot",
+    "lv": "pēda",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "eye",
+    "lv": "acs",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "ear",
+    "lv": "auss",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "mouth",
+    "lv": "mute",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "back",
+    "lv": "mugura",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "stomach",
+    "lv": "vēders",
+    "pos": "noun",
+    "category": "body",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sick",
+    "lv": "slims",
+    "pos": "adjective",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "healthy",
+    "lv": "vesels",
+    "pos": "adjective",
+    "category": "health",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "be",
+    "lv": "būt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "have",
+    "lv": "būt; piederēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "do",
+    "lv": "darīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "make",
+    "lv": "taisīt; izgatavot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "go",
+    "lv": "iet; braukt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "come",
+    "lv": "nākt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "see",
+    "lv": "redzēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "look",
+    "lv": "skatīties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "watch",
+    "lv": "skatīties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hear",
+    "lv": "dzirdēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "listen",
+    "lv": "klausīties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "say",
+    "lv": "teikt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "speak",
+    "lv": "runāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "tell",
+    "lv": "stāstīt; pateikt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "ask",
+    "lv": "jautāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "answer",
+    "lv": "atbildēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "know",
+    "lv": "zināt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "understand",
+    "lv": "saprast",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "think",
+    "lv": "domāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "remember",
+    "lv": "atcerēties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "forget",
+    "lv": "aizmirst",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "learn",
+    "lv": "mācīties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "teach",
+    "lv": "mācīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "read",
+    "lv": "lasīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "write",
+    "lv": "rakstīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "work",
+    "lv": "strādāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "live",
+    "lv": "dzīvot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "stay",
+    "lv": "palikt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "wait",
+    "lv": "gaidīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "help",
+    "lv": "palīdzēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "need",
+    "lv": "vajadzēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "want",
+    "lv": "gribēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "like",
+    "lv": "patikt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "love",
+    "lv": "mīlēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "prefer",
+    "lv": "dot priekšroku",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "buy",
+    "lv": "pirkt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "pay",
+    "lv": "maksāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cost",
+    "lv": "maksāt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "order",
+    "lv": "pasūtīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "eat",
+    "lv": "ēst",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "drink",
+    "lv": "dzert",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cook",
+    "lv": "gatavot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "open",
+    "lv": "atvērt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "close",
+    "lv": "aizvērt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "start",
+    "lv": "sākt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "finish",
+    "lv": "pabeigt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "stop",
+    "lv": "apstāties; pārtraukt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "try",
+    "lv": "mēģināt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "use",
+    "lv": "lietot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "find",
+    "lv": "atrast",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "lose",
+    "lv": "pazaudēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "give",
+    "lv": "dot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "take",
+    "lv": "ņemt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "bring",
+    "lv": "atnest",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "send",
+    "lv": "sūtīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "call",
+    "lv": "zvanīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "meet",
+    "lv": "satikt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "visit",
+    "lv": "apmeklēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "travel",
+    "lv": "ceļot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "drive",
+    "lv": "vadīt; braukt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "walk",
+    "lv": "iet kājām",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "run",
+    "lv": "skriet",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sit",
+    "lv": "sēdēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "stand",
+    "lv": "stāvēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sleep",
+    "lv": "gulēt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "wake up",
+    "lv": "pamosties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "feel",
+    "lv": "justies",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "change",
+    "lv": "mainīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "choose",
+    "lv": "izvēlēties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "show",
+    "lv": "parādīt",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "explain",
+    "lv": "izskaidrot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "repeat",
+    "lv": "atkārtot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "correct",
+    "lv": "izlabot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "improve",
+    "lv": "uzlabot",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "practise",
+    "lv": "trenēties",
+    "pos": "verb",
+    "category": "verbs",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "new",
+    "lv": "jauns",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "old",
+    "lv": "vecs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "young",
+    "lv": "jauns",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "important",
+    "lv": "svarīgs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "interesting",
+    "lv": "interesants",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sad",
+    "lv": "bēdīgs",
+    "pos": "adjective",
+    "category": "feelings",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "angry",
+    "lv": "dusmīgs",
+    "pos": "adjective",
+    "category": "feelings",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "busy",
+    "lv": "aizņemts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "free",
+    "lv": "brīvs; bezmaksas",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "ready",
+    "lv": "gatavs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sure",
+    "lv": "pārliecināts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "right",
+    "lv": "pareizs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "wrong",
+    "lv": "nepareizs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "fast",
+    "lv": "ātrs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "slow",
+    "lv": "lēns",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "hot",
+    "lv": "karsts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cold",
+    "lv": "auksts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "expensive",
+    "lv": "dārgs",
+    "pos": "adjective",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "cheap",
+    "lv": "lēts",
+    "pos": "adjective",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "clean",
+    "lv": "tīrs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "dirty",
+    "lv": "netīrs",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "open",
+    "lv": "atvērts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "closed",
+    "lv": "slēgts",
+    "pos": "adjective",
+    "category": "description",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "what",
+    "lv": "kas; ko",
+    "pos": "pronoun",
+    "category": "questions",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "which",
+    "lv": "kurš; kura",
+    "pos": "pronoun",
+    "category": "questions",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "how much",
+    "lv": "cik daudz; cik maksā",
+    "pos": "phrase",
+    "category": "questions",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "how many",
+    "lv": "cik",
+    "pos": "phrase",
+    "category": "questions",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "this",
+    "lv": "šis; šī",
+    "pos": "pronoun",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "that",
+    "lv": "tas; tā",
+    "pos": "pronoun",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "here",
+    "lv": "šeit",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "there",
+    "lv": "tur",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "with",
+    "lv": "ar",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "without",
+    "lv": "bez",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "for",
+    "lv": "par; priekš",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "from",
+    "lv": "no",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "to",
+    "lv": "uz; līdz",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "in",
+    "lv": "iekšā; -ā/-ē",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "on",
+    "lv": "uz",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "under",
+    "lv": "zem",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "before",
+    "lv": "pirms",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "after",
+    "lv": "pēc",
+    "pos": "preposition",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "and",
+    "lv": "un",
+    "pos": "conjunction",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "or",
+    "lv": "vai",
+    "pos": "conjunction",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "but",
+    "lv": "bet",
+    "pos": "conjunction",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "because",
+    "lv": "jo",
+    "pos": "conjunction",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "if",
+    "lv": "ja",
+    "pos": "conjunction",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "very",
+    "lv": "ļoti",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "more",
+    "lv": "vairāk",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "less",
+    "lv": "mazāk",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "maybe",
+    "lv": "varbūt",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "probably",
+    "lv": "droši vien",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "really",
+    "lv": "tiešām",
+    "pos": "adverb",
+    "category": "basics",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "excuse me",
+    "lv": "atvainojiet",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "sorry",
+    "lv": "atvainojiet; piedodiet",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "you're welcome",
+    "lv": "nav par ko",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "nice to meet you",
+    "lv": "prieks iepazīties",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "how are you?",
+    "lv": "kā jums klājas?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i'm fine",
+    "lv": "man viss kārtībā",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i don't understand",
+    "lv": "es nesaprotu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "please repeat",
+    "lv": "lūdzu, atkārtojiet",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "speak more slowly",
+    "lv": "runājiet lēnāk",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "what does this mean?",
+    "lv": "ko tas nozīmē?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "how do you say this?",
+    "lv": "kā to saka?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "can you help me?",
+    "lv": "vai varat man palīdzēt?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "where is the toilet?",
+    "lv": "kur ir tualete?",
+    "pos": "phrase",
+    "category": "travel",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "how much is it?",
+    "lv": "cik tas maksā?",
+    "pos": "phrase",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i would like...",
+    "lv": "es gribētu...",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "can i pay by card?",
+    "lv": "vai varu maksāt ar karti?",
+    "pos": "phrase",
+    "category": "shopping",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "where are you from?",
+    "lv": "no kurienes jūs esat?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i am from latvia",
+    "lv": "es esmu no Latvijas",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i live in england",
+    "lv": "es dzīvoju Anglijā",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "see you tomorrow",
+    "lv": "tiekamies rīt",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "have a nice day",
+    "lv": "jauku dienu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "good luck",
+    "lv": "veiksmi",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "one moment please",
+    "lv": "vienu brīdi, lūdzu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "no problem",
+    "lv": "nav problēmu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i agree",
+    "lv": "es piekrītu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i don't know",
+    "lv": "es nezinu",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "i think so",
+    "lv": "es tā domāju",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "could you explain?",
+    "lv": "vai varat paskaidrot?",
+    "pos": "phrase",
+    "category": "phrases",
+    "example_en": "",
+    "example_lv": ""
+  },
+  {
+    "en": "weather",
+    "lv": "laikapstākļi",
+    "pos": "noun",
+    "category": "nature",
+    "example_en": "",
+    "example_lv": ""
+  }
 ]

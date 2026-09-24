@@ -1,0 +1,8 @@
+<?php
+// Copy this file to api/config.local.php and keep it private.
+// You can alternatively set AZURE_SPEECH_KEY and AZURE_SPEECH_REGION
+// as server environment variables.
+return [
+    'azure_speech_key' => 'YOUR_AZURE_SPEECH_KEY',
+    'azure_speech_region' => 'uksouth',
+];
