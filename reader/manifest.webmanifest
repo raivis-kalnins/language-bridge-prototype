@@ -1,0 +1,50 @@
+{
+  "id": "./",
+  "name": "Book Reader",
+  "short_name": "Book Reader",
+  "description": "Private device-first PDF and DOCX book reader with multilingual natural read-aloud.",
+  "lang": "en",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#f4f1e9",
+  "theme_color": "#fffef9",
+  "categories": [
+    "books",
+    "education",
+    "productivity",
+    "accessibility"
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/owl-book-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/owl-book-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Library",
+      "short_name": "Library",
+      "url": "./?view=library"
+    },
+    {
+      "name": "Add book",
+      "short_name": "Add",
+      "url": "./?view=create"
+    }
+  ]
+}

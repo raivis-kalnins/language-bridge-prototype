@@ -1,0 +1,40 @@
+<?php
+return [
+    'app_name' => 'Book Reader',
+
+    // Generate with:
+    // php -r "echo password_hash('YOUR-STRONG-PASSWORD', PASSWORD_DEFAULT), PHP_EOL;"
+    'super_admin_email' => 'admin@example.com',
+    'super_admin_password_hash' => '',
+
+    // Signup requests are always saved in storage/signup_requests.json. If PHP mail()
+    // is configured, the same request is also emailed to signup_to_email.
+    'signup_to_email' => 'admin@example.com',
+    'mail_from' => '',
+
+    // hCaptcha: public site key + server-only secret. Never expose the secret in client JavaScript.
+    'hcaptcha_site_key' => 'YOUR-HCAPTCHA-SITE-KEY',
+    'hcaptcha_secret' => 'YOUR-HCAPTCHA-SECRET',
+
+    // Used to build signed signup approval links sent by email.
+    'app_base_url' => 'https://book.example.com',
+    'approval_hours' => 48,
+
+    'mammoth_url' => 'https://cdn.jsdelivr.net/npm/mammoth@1.12.3/mammoth.browser.min.js',
+    'pdfjs_url' => 'https://cdn.jsdelivr.net/npm/pdfjs-dist@6.3.289/legacy/build/pdf.mjs',
+    'pdfworker_url' => 'https://cdn.jsdelivr.net/npm/pdfjs-dist@6.3.289/legacy/build/pdf.worker.mjs',
+    // Browser-side OCR for JPG/PNG/WebP/AVIF/etc. Image pixels stay in the browser; language data is downloaded on demand.
+    'tesseract_url' => 'https://cdn.jsdelivr.net/npm/tesseract.js@7.0.0/dist/tesseract.min.js',
+    'piper_module_url' => 'https://cdn.jsdelivr.net/npm/@mintplex-labs/piper-tts-web@1.0.5/+esm',
+
+    // Pinned archived Supertonic 3 snapshot; speech generation runs in the browser.
+    'natural_tts_model_url' => 'https://huggingface.co/supertone-oss-archive/supertonic-3/resolve/aafc6e32416a594460b32413efc49d7fe4ce6d46',
+    'ort_module_url' => 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.all.bundle.min.mjs',
+    'ort_wasm_base_url' => 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/',
+
+    // Browser-side MP3 encoder used only when the user explicitly generates audio.
+    'lamejs_url' => 'https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js',
+
+    'enable_legacy_doc_conversion' => false,
+    'libreoffice_binary' => 'soffice',
+];
