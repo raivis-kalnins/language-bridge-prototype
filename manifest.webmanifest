@@ -1,13 +1,21 @@
 {
-  "name": "Valodu Tilts / Language Bridge",
-  "short_name": "Valodu Tilts",
+  "name": "Language Bridge — English ↔ Latvian",
+  "short_name": "Language Bridge",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f1e9",
-  "theme_color": "#123b3b",
-  "description": "English-Latvian speaking, writing, pronunciation, dictionary, grammar and language games.",
+  "background_color": "#fbfaff",
+  "theme_color": "#6652db",
+  "description": "English-Latvian AI-style conversation practice, pronunciation, ESOL grammar, stories, dictionary, games and reading practice.",
   "icons": [
-    {"src":"assets/icons/owl-book-192.png","sizes":"192x192","type":"image/png"},
-    {"src":"assets/icons/owl-book-512.png","sizes":"512x512","type":"image/png"}
+    {
+      "src": "assets/icons/language-bridge-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/language-bridge-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }

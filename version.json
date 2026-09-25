@@ -1,0 +1,7 @@
+{
+  "version": "0.6.5",
+  "build": "full-link-story-writing-reliability-qa",
+  "voice_runtime": "jtsage-piper-tts-web-1.2.0",
+  "onnx_runtime": "1.22.0",
+  "hotfix": "native external links, story delegation, writing correction, grammar delegation, refreshed resources, full QA"
+}

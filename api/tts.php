@@ -88,7 +88,7 @@ if (function_exists('curl_init')) {
             'Ocp-Apim-Subscription-Key: ' . $config['key'],
             'Content-Type: application/ssml+xml',
             'X-Microsoft-OutputFormat: audio-24khz-48kbitrate-mono-mp3',
-            'User-Agent: LanguageBridge/0.4.2'
+            'User-Agent: LanguageBridge/0.4.4'
         ],
     ]);
     $audio = curl_exec($ch);
@@ -103,7 +103,7 @@ if (function_exists('curl_init')) {
         'header' => "Ocp-Apim-Subscription-Key: {$config['key']}\r\n" .
                     "Content-Type: application/ssml+xml\r\n" .
                     "X-Microsoft-OutputFormat: audio-24khz-48kbitrate-mono-mp3\r\n" .
-                    "User-Agent: LanguageBridge/0.4.2\r\n",
+                    "User-Agent: LanguageBridge/0.4.4\r\n",
         'content' => $ssml,
     ]]);
     $audio = @file_get_contents($url, false, $ctx);

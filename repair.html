@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#5f4bd4">
+<title>Language Bridge · Repair</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172b35;background:#f7f6fb}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px}.card{width:min(620px,100%);background:#fff;border:1px solid #e4dfef;border-radius:24px;box-shadow:0 18px 50px rgba(55,58,91,.12);padding:26px}.brand{display:flex;gap:14px;align-items:center}.brand img{width:68px;height:68px;border-radius:18px}.brand h1{margin:0;font-size:28px}.brand p{margin:5px 0 0;color:#66727b}.status{margin:22px 0;padding:15px 16px;border-radius:15px;background:#f2efff;border:1px solid #ddd5ff;white-space:pre-line}.actions{display:grid;gap:10px}.btn{appearance:none;border:0;border-radius:14px;padding:14px 16px;font-weight:850;font-size:16px;cursor:pointer}.primary{background:#5f4bd4;color:#fff}.secondary{background:#e8f7f2;color:#144f49}.danger{background:#fff0ef;color:#a32d2d;border:1px solid #f1c7c2}.note{font-size:13px;line-height:1.55;color:#6b747d;margin-top:16px}a{color:#5544c4;font-weight:800}
+</style>
+</head>
+<body>
+<main class="card">
+ <div class="brand"><img src="assets/icons/language-bridge-192.png" alt=""><div><h1>Repair Language Bridge</h1><p>Cache / PWA reset without losing learning progress.</p></div></div>
+ <div id="status" class="status">Checking app cache…</div>
+ <div class="actions">
+  <button id="refresh" class="btn primary">🧹 Clear app cache & reload</button>
+  <button id="update" class="btn secondary">↻ Check for newest service worker</button>
+  <button id="full" class="btn danger">Reset ALL app data (progress + settings)</button>
+ </div>
+ <p class="note"><strong>Recommended:</strong> use “Clear app cache & reload”. It removes old service workers and Cache Storage but keeps your XP, learning direction, history and downloaded local voice model. The full reset also clears saved learning settings/progress.</p>
+ <p><a href="./?fresh=1">← Back to Language Bridge</a></p>
+</main>
+<script>
+const status=document.getElementById('status');
+async function info(){
+ let regs=0,keys=[];
+ try{if('serviceWorker'in navigator)regs=(await navigator.serviceWorker.getRegistrations()).length;}catch(_){ }
+ try{if('caches'in window)keys=await caches.keys();}catch(_){ }
+ let version='unknown';try{const r=await fetch('./version.json?ts='+Date.now(),{cache:'no-store'});version=(await r.json()).version||'unknown';}catch(_){ }
+ status.textContent=`Server version: ${version}\nService workers: ${regs}\nLanguage Bridge caches: ${keys.filter(k=>k.startsWith('language-bridge')).join(', ')||'none'}`;
+}
+async function clearRuntime(reload=true){
+ status.textContent='Removing old service workers and cached app files…';
+ try{if('serviceWorker'in navigator){const regs=await navigator.serviceWorker.getRegistrations();await Promise.all(regs.map(r=>r.unregister()));}}catch(e){console.warn(e);}
+ try{if('caches'in window){const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('language-bridge')).map(k=>caches.delete(k)));}}catch(e){console.warn(e);}
+ try{sessionStorage.clear();}catch(_){ }
+ status.textContent='Cache cleared.'+(reload?' Reloading fresh app…':'');
+ if(reload)location.replace('./?fresh='+Date.now());
+}
+document.getElementById('refresh').onclick=()=>clearRuntime(true);
+document.getElementById('update').onclick=async()=>{try{const regs=await navigator.serviceWorker.getRegistrations();await Promise.all(regs.map(r=>r.update()));status.textContent='Update check complete.';}catch(e){status.textContent='Update check failed: '+e.message;}setTimeout(info,700);};
+document.getElementById('full').onclick=async()=>{if(!confirm('This will erase Language Bridge progress, settings and history on this browser. Continue?'))return;try{localStorage.clear();}catch(_){ }await clearRuntime(false);location.replace('./?fresh='+Date.now());};
+info();
+</script>
+</body>
+</html>
