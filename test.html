@@ -8,14 +8,14 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="Free local-first Latvian-English speaking, writing, pronunciation, dictionary, grammar and game practice.">
-  <link rel="manifest" href="manifest.webmanifest?v=0.6.5">
+  <link rel="manifest" href="manifest.webmanifest?v=0.7.0">
   <link rel="icon" href="assets/icons/language-bridge-64.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/icons/language-bridge-192.png">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://esm.sh" crossorigin>
   <link rel="preconnect" href="https://esm.run" crossorigin>
   <link rel="preconnect" href="https://huggingface.co" crossorigin>
-  <link rel="stylesheet" href="assets/app-v0.6.5.css?v=0.6.5">
+  <link rel="stylesheet" href="assets/app-v0.7.0.css?v=0.7.0">
   <title>Valodu Tilts / Language Bridge</title>
 </head>
 <body>
@@ -23,15 +23,15 @@
   <div id="app"></div>
   <script>
   (()=>{
-    const build="0.6.5";
+    const build="0.7.0";
     try{
       const prev=localStorage.getItem('lb_asset_build');
       localStorage.setItem('lb_asset_build',build);
       if(prev&&prev!==build&&'caches' in window){caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('language-bridge')).map(k=>caches.delete(k)))).catch(()=>{});}
     }catch(_){ }
   })();
-  window.LB_BOOTSTRAP = {"version":"0.6.5"};
+  window.LB_BOOTSTRAP = {"version":"0.7.0"};
   </script>
-  <script src="assets/app-v0.6.5.js?v=0.6.5" defer></script>
+  <script src="assets/app-v0.7.0.js?v=0.7.0" defer></script>
 </body>
 </html>

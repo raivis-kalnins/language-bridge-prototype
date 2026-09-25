@@ -1,7 +1,7 @@
 {
-  "version": "0.6.5",
-  "build": "full-link-story-writing-reliability-qa",
+  "version": "0.7.0",
+  "build": "admin-statistics-settings-logo",
   "voice_runtime": "jtsage-piper-tts-web-1.2.0",
   "onnx_runtime": "1.22.0",
-  "hotfix": "native external links, story delegation, writing correction, grammar delegation, refreshed resources, full QA"
+  "hotfix": "larger configurable logo, Super Admin panel, anonymous usage statistics, public feature/settings controls"
 }

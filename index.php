@@ -6,15 +6,23 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 header('Expires: 0');
-$version = '0.6.5';
+$version = '0.7.0';
+$queryString = (string)($_SERVER['QUERY_STRING'] ?? '');
+$isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === '1' || (string)($_GET['view'] ?? '') === 'admin';
 ?>
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#5f4bd4">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="<?= $isAdminPanel ? '#0f1020' : '#5f4bd4' ?>">
+  <meta name="color-scheme" content="<?= $isAdminPanel ? 'dark' : 'light' ?>">
+  <?php if ($isAdminPanel): ?>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="assets/icons/language-bridge-64.png" type="image/png">
+  <link rel="stylesheet" href="assets/admin.css?v=<?= rawurlencode($version) ?>">
+  <title>Language Bridge Admin</title>
+  <?php else: ?>
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="Free local-first Latvian-English speaking, writing, pronunciation, dictionary, grammar and game practice.">
@@ -25,10 +33,15 @@ $version = '0.6.5';
   <link rel="preconnect" href="https://esm.sh" crossorigin>
   <link rel="preconnect" href="https://esm.run" crossorigin>
   <link rel="preconnect" href="https://huggingface.co" crossorigin>
-  <link rel="stylesheet" href="assets/app-v0.6.5.css?v=<?= rawurlencode($version) ?>">
+  <link rel="stylesheet" href="assets/app-v0.7.0.css?v=<?= rawurlencode($version) ?>">
   <title>Valodu Tilts / Language Bridge</title>
+  <?php endif; ?>
 </head>
-<body>
+<body class="<?= $isAdminPanel ? 'admin-body' : 'app-body' ?>">
+<?php if ($isAdminPanel): ?>
+  <div id="lb-admin-root" data-version="<?= htmlspecialchars($version, ENT_QUOTES, 'UTF-8') ?>"></div>
+  <script src="assets/admin.js?v=<?= rawurlencode($version) ?>" defer></script>
+<?php else: ?>
   <noscript>This application requires JavaScript.</noscript>
   <div id="app"></div>
   <script>
@@ -42,6 +55,7 @@ $version = '0.6.5';
   })();
   window.LB_BOOTSTRAP = <?= json_encode(['version'=>$version], JSON_UNESCAPED_SLASHES) ?>;
   </script>
-  <script src="assets/app-v0.6.5.js?v=<?= rawurlencode($version) ?>" defer></script>
+  <script src="assets/app-v0.7.0.js?v=<?= rawurlencode($version) ?>" defer></script>
+<?php endif; ?>
 </body>
 </html>

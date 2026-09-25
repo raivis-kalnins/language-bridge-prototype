@@ -1,0 +1,28 @@
+{
+    "branding": {
+        "logoSize": 64,
+        "logoMobileSize": 52
+    },
+    "practice": {
+        "dailyXpGoal": 30
+    },
+    "features": {
+        "coach": true,
+        "pron": true,
+        "dictionary": true,
+        "grammar": true,
+        "stories": true,
+        "resources": true,
+        "games": true,
+        "reader": true,
+        "installButton": true
+    },
+    "analytics": {
+        "enabled": true,
+        "retentionDays": 90
+    },
+    "notice": {
+        "enabled": false,
+        "text": ""
+    }
+}
