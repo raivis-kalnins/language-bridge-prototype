@@ -1,7 +1,7 @@
 {
-  "version": "0.7.0",
-  "build": "admin-statistics-settings-logo",
+  "version": "0.7.1",
+  "build": "modern-logo-maskable-pwa-install",
   "voice_runtime": "jtsage-piper-tts-web-1.2.0",
   "onnx_runtime": "1.22.0",
-  "hotfix": "larger configurable logo, Super Admin panel, anonymous usage statistics, public feature/settings controls"
+  "hotfix": "modern simplified logo, larger header branding, maskable Android launcher icons, 180px Apple touch icon, improved mobile install help"
 }

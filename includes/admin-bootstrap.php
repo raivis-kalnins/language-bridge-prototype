@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-const LB_ADMIN_VERSION = '0.7.0';
+const LB_ADMIN_VERSION = '0.7.1';
 
 function lb_admin_root(): string { return dirname(__DIR__); }
 function lb_storage_path(string $name = ''): string {
@@ -190,8 +190,8 @@ function lb_record_login_attempt(string $login, bool $success): void {
 function lb_default_settings(): array {
     return [
         'branding' => [
-            'logoSize' => 64,
-            'logoMobileSize' => 52,
+            'logoSize' => 76,
+            'logoMobileSize' => 64,
         ],
         'practice' => [
             'dailyXpGoal' => 30,

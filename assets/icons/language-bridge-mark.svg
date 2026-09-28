@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Language Bridge logo</title>
+  <desc id="desc">A sun above blue English and red Latvian speech bubbles joined by a clean bridge.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24B7FF"/>
+      <stop offset="1" stop-color="#2366E8"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4A65"/>
+      <stop offset="1" stop-color="#D81845"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1677EE"/>
+      <stop offset="0.48" stop-color="#19A6D8"/>
+      <stop offset="0.52" stop-color="#F4A51C"/>
+      <stop offset="1" stop-color="#EE3152"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <circle cx="256" cy="131" r="61" fill="#FFC72C"/>
+    <path d="M256 36v-24M190 53l-13-21M322 53l13-21" stroke="#F8A900" stroke-width="18" stroke-linecap="round"/>
+
+    <path d="M69 134c0-47 38-85 85-85h45c47 0 85 38 85 85s-38 85-85 85h-37l-47 35 10-43c-33-12-56-42-56-77z" fill="url(#blue)" stroke="#fff" stroke-width="10"/>
+    <path d="M228 134c0-47 38-85 85-85h45c47 0 85 38 85 85 0 35-22 65-54 78l10 42-48-35h-38c-47 0-85-38-85-85z" fill="url(#red)" stroke="#fff" stroke-width="10"/>
+
+    <text x="155" y="153" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#fff" letter-spacing="1">EN</text>
+    <text x="357" y="153" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#fff" letter-spacing="1">LV</text>
+
+    <path d="M77 366Q256 212 435 366" fill="none" stroke="#fff" stroke-width="56" stroke-linecap="round"/>
+    <path d="M77 366Q256 212 435 366" fill="none" stroke="url(#bridge)" stroke-width="38" stroke-linecap="round"/>
+    <path d="M89 376H423" stroke="#16385D" stroke-width="20" stroke-linecap="round"/>
+
+    <path d="M138 336v40M197 287v89M256 267v109M315 287v89M374 336v40" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".98"/>
+    <path d="M240 265h32v111h-32z" fill="#fff" rx="12"/>
+    <path d="M247 268h18v108h-18z" fill="#F4AA21" rx="9"/>
+  </g>
+</svg>

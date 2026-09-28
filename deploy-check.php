@@ -1,12 +1,15 @@
 <?php
 declare(strict_types=1);
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
-$version = '0.7.0';
+$version = '0.7.1';
 $checks = [
   'index.php' => __DIR__ . '/index.php',
-  'app JS' => __DIR__ . '/assets/app-v0.7.0.js',
-  'app CSS' => __DIR__ . '/assets/app-v0.7.0.css',
-  'service worker' => __DIR__ . '/service-worker-v0.7.0.js',
+  'app JS' => __DIR__ . '/assets/app-v0.7.1.js',
+  'app CSS' => __DIR__ . '/assets/app-v0.7.1.css',
+  'service worker' => __DIR__ . '/service-worker-v0.7.1.js',
+  'app icon 192' => __DIR__ . '/assets/icons/language-bridge-192.png',
+  'maskable icon 512' => __DIR__ . '/assets/icons/language-bridge-maskable-512.png',
+  'vector brand mark' => __DIR__ . '/assets/icons/language-bridge-mark.svg',
   'admin API' => __DIR__ . '/admin-api.php',
   'admin JS' => __DIR__ . '/assets/admin.js',
   'admin CSS' => __DIR__ . '/assets/admin.css',

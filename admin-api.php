@@ -104,8 +104,8 @@ try {
             lb_require_admin();
             $incoming = is_array($input['settings'] ?? null) ? $input['settings'] : [];
             $existing = lb_settings();
-            $logoSize = max(42, min(96, (int)($incoming['branding']['logoSize'] ?? $existing['branding']['logoSize'])));
-            $logoMobile = max(38, min(76, (int)($incoming['branding']['logoMobileSize'] ?? $existing['branding']['logoMobileSize'])));
+            $logoSize = max(52, min(120, (int)($incoming['branding']['logoSize'] ?? $existing['branding']['logoSize'])));
+            $logoMobile = max(48, min(96, (int)($incoming['branding']['logoMobileSize'] ?? $existing['branding']['logoMobileSize'])));
             $goal = max(5, min(250, (int)($incoming['practice']['dailyXpGoal'] ?? $existing['practice']['dailyXpGoal'])));
             $retention = max(7, min(365, (int)($incoming['analytics']['retentionDays'] ?? $existing['analytics']['retentionDays'])));
             $featureKeys = ['coach','pron','dictionary','grammar','stories','resources','games','reader','installButton'];

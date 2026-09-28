@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 header('Expires: 0');
-$version = '0.7.0';
+$version = '0.7.1';
 $queryString = (string)($_SERVER['QUERY_STRING'] ?? '');
 $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === '1' || (string)($_GET['view'] ?? '') === 'admin';
 ?>
@@ -25,15 +25,17 @@ $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === 
   <?php else: ?>
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Language Bridge">
   <meta name="description" content="Free local-first Latvian-English speaking, writing, pronunciation, dictionary, grammar and game practice.">
   <link rel="manifest" href="manifest.webmanifest?v=<?= rawurlencode($version) ?>">
   <link rel="icon" href="assets/icons/language-bridge-64.png" type="image/png">
-  <link rel="apple-touch-icon" href="assets/icons/language-bridge-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/language-bridge-180.png">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://esm.sh" crossorigin>
   <link rel="preconnect" href="https://esm.run" crossorigin>
   <link rel="preconnect" href="https://huggingface.co" crossorigin>
-  <link rel="stylesheet" href="assets/app-v0.7.0.css?v=<?= rawurlencode($version) ?>">
+  <link rel="stylesheet" href="assets/app-v0.7.1.css?v=<?= rawurlencode($version) ?>">
   <title>Valodu Tilts / Language Bridge</title>
   <?php endif; ?>
 </head>
@@ -55,7 +57,7 @@ $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === 
   })();
   window.LB_BOOTSTRAP = <?= json_encode(['version'=>$version], JSON_UNESCAPED_SLASHES) ?>;
   </script>
-  <script src="assets/app-v0.7.0.js?v=<?= rawurlencode($version) ?>" defer></script>
+  <script src="assets/app-v0.7.1.js?v=<?= rawurlencode($version) ?>" defer></script>
 <?php endif; ?>
 </body>
 </html>
