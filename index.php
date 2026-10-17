@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 header('Expires: 0');
-$version = '0.7.1';
+$version = '0.7.2';
 $queryString = (string)($_SERVER['QUERY_STRING'] ?? '');
 $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === '1' || (string)($_GET['view'] ?? '') === 'admin';
 ?>
@@ -36,6 +36,7 @@ $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === 
   <link rel="preconnect" href="https://esm.run" crossorigin>
   <link rel="preconnect" href="https://huggingface.co" crossorigin>
   <link rel="stylesheet" href="assets/app-v0.7.1.css?v=<?= rawurlencode($version) ?>">
+  <link rel="stylesheet" href="assets/digitalpulse.css?v=<?= rawurlencode($version) ?>">
   <title>Valodu Tilts / Language Bridge</title>
   <?php endif; ?>
 </head>
@@ -58,6 +59,7 @@ $isAdminPanel = $queryString === '=admin' || (string)($_GET['admin'] ?? '') === 
   window.LB_BOOTSTRAP = <?= json_encode(['version'=>$version], JSON_UNESCAPED_SLASHES) ?>;
   </script>
   <script src="assets/app-v0.7.1.js?v=<?= rawurlencode($version) ?>" defer></script>
+  <script src="assets/digitalpulse.js?v=<?= rawurlencode($version) ?>" defer></script>
 <?php endif; ?>
 </body>
 </html>

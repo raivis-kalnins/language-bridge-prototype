@@ -1,7 +1,7 @@
 {
-  "version": "0.7.1",
-  "build": "modern-logo-maskable-pwa-install",
+  "version": "0.7.2",
+  "build": "digitalpulse-sidebar-and-app-links",
   "voice_runtime": "jtsage-piper-tts-web-1.2.0",
   "onnx_runtime": "1.22.0",
-  "hotfix": "modern simplified logo, larger header branding, maskable Android launcher icons, 180px Apple touch icon, improved mobile install help"
+  "hotfix": "DigitalPulse left-side promotion, five related applications, bilingual responsive layout and refreshed PWA cache"
 }

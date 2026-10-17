@@ -1,0 +1,52 @@
+LANGUAGE BRIDGE v0.7.2 - DIGITALPULSE + OTHER APPS
+================================================
+Based on the verified GitHub master revision:
+69b62b2665730792d6f2aaf0046e624c5a5a238a
+Repository: https://github.com/raivis-kalnins/language-bridge-prototype
+
+WHAT CHANGED
+- Added a DigitalPulse developer advert (websites, web apps, WordPress,
+  WooCommerce) in spare LEFT space on extra-wide desktop screens.
+- On standard desktop, tablet and mobile the advert appears below the main
+  app content, before the footer, without covering the existing controls.
+- Added external links: Translate, Games, Whiteboard, Price Compare and Radio.
+- English/Latvian texts follow Language Bridge's existing UI switch.
+- Added a developer link in the footer.
+- Updated the active PWA service worker and cache to 0.7.2. The app's
+  original learning features, admin panel and reader are unchanged.
+- No additional analytics, cookies, network assets or extra libraries.
+
+FAST UPDATE FOR AN EXISTING LANGUAGE.63.LV INSTALLATION
+1. Back up the site files and, particularly, admin-config.local.php,
+   storage/, api/config.local.php and reader/storage/.
+2. Upload this update ZIP to the site document root in cPanel File Manager.
+3. Extract OVER the existing files. Do not delete the existing site first.
+4. Overwrite index.php, deploy-check.php, version.json and service workers.
+   The two new files are assets/digitalpulse.js and assets/digitalpulse.css.
+5. Open /repair.html and choose 'Clear app cache & reload'.
+6. Open /deploy-check.php, then test desktop and mobile, LV/EN switch, and
+   all five external links.
+7. After testing, remove /deploy-check.php from the public server if desired.
+
+TO CREATE A SINGLE COMPLETE REPLACEMENT ZIP
+Windows: extract this ZIP to a folder. Right-click build-full-zip.ps1 and
+run it in PowerShell (or open PowerShell in this folder and run:
+  powershell -NoProfile -ExecutionPolicy RemoteSigned -File .\build-full-zip.ps1
+). If Windows blocks the downloaded script, inspect it before using
+Unblock-File in PowerShell; do not permanently weaken system policy.
+
+Mac/Linux: extract this ZIP, open Terminal in the folder and run:
+  sh ./build-full-zip.sh
+
+Both scripts download the verified GitHub source, add this update, exclude
+sensitive local configuration and persisted user/admin data, and create
+Language-Bridge-v0.7.2-FULL.zip in the same folder.
+Internet access to github.com / codeload.github.com is required when
+building the full ZIP. No GitHub write access is needed.
+
+IMPORTANT PRIVACY/ADMIN SAFETY
+The public GitHub revision contains local admin configuration and admin
+account data. The FULL builder removes these from the downloadable archive.
+Preserve your actual live copies when extracting an update. Review whether
+server passwords/session secrets in public source need rotation. Never
+replace user JSON files with blank copies from a release package.
